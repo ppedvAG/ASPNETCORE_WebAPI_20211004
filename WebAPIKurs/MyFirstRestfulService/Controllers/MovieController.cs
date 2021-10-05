@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MyFirstRestfulService.Data;
 using MyFirstRestfulService.Models;
 using System;
@@ -23,6 +24,7 @@ namespace MyFirstRestfulService.Controllers
 
         [HttpGet] //https://localhost:44319/api/movie
         //[ApiConventionMethod(typeof(DefaultApiConventions), nameof(DefaultApiConventions.Get))]
+        [Produces("application/xml", "application/json")]
         public IList<Movie> GetAllMovies()
         {
             IList<Movie> movieListe = new List<Movie>();
@@ -36,16 +38,33 @@ namespace MyFirstRestfulService.Controllers
             return movieListe;
         }
 
-        [HttpGet("GetOnMovieFilms")] //https://localhost:44319/api/movie -> https://localhost:44319/api/Movie/GetOnMovieFilms  (besser)
-        public IEnumerable<Movie> GetOnMovieFilms()
-        {
-            IList<Movie> movies = _dbContext.Movies.ToList();
+        //[HttpGet("GetOnMovieFilms")] //https://localhost:44319/api/movie -> https://localhost:44319/api/Movie/GetOnMovieFilms  (besser)
+        //public IEnumerable<Movie> GetOnMovieFilms()
+        //{
+        //    IList<Movie> movies = _dbContext.Movies.ToList();
 
-            foreach (Movie currentMovie in movies)
-            {
-                yield return currentMovie;
-            }
-        }
+        //    foreach (Movie currentMovie in movies)
+        //    {
+        //        yield return currentMovie;
+        //    }
+        //}
+
+
+        //public async IAsyncEnumerable<Movie> GetOnSaleProductsAsync()
+        //{
+        //    IAsyncEnumerable<Movie> movies = await _dbContext.Movies.();
+
+
+
+
+        //    await foreach (var product in movies)
+        //    {
+        //        if (product.IsOnSale)
+        //        {
+        //            yield return product;
+        //        }
+        //    }
+        //}
 
 
         [HttpGet("{id}")]

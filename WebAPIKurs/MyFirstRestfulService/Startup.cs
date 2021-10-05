@@ -11,10 +11,13 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using MyFirstRestfulService.Data;
+using MyFirstRestfulService.Formatter;
+using MyFirstRestfulService.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApiContrib.Core.Formatter.Csv;
 
 namespace MyFirstRestfulService
 {
@@ -33,8 +36,19 @@ namespace MyFirstRestfulService
 
             services.AddControllers(options =>
             {
-                options.InputFormatters.Insert(0, GetJsonPatchInputFormatter());
-            }).AddNewtonsoftJson();
+                options.InputFormatters.Insert(0, new VCardInputFormatter());
+                options.OutputFormatters.Insert(0, new VCardOutputFormatter());
+
+
+                options.InputFormatters.Insert(1, GetJsonPatchInputFormatter());
+
+
+                //options.InputFormatters.Insert(2, new VCardInputFormatter());
+                //options.OutputFormatters.Insert(2, new VCardOutputFormatter());
+            })
+                .AddNewtonsoftJson()
+                .AddXmlSerializerFormatters()
+                .AddCsvSerializerFormatters();
 
 
             services.AddSwaggerGen(c =>
@@ -46,6 +60,9 @@ namespace MyFirstRestfulService
            {
                options.UseInMemoryDatabase("MovieDB");
            });
+
+
+            services.AddHttpClient<IVideoStream, VideoStream>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

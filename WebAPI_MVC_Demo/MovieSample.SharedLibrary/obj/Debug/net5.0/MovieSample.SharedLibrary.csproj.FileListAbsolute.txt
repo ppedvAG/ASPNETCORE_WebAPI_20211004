@@ -1,0 +1,11 @@
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPI_MVC_Demo\MovieSample.SharedLibrary\bin\Debug\net5.0\MovieSample.SharedLibrary.deps.json
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPI_MVC_Demo\MovieSample.SharedLibrary\bin\Debug\net5.0\MovieSample.SharedLibrary.dll
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPI_MVC_Demo\MovieSample.SharedLibrary\bin\Debug\net5.0\ref\MovieSample.SharedLibrary.dll
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPI_MVC_Demo\MovieSample.SharedLibrary\bin\Debug\net5.0\MovieSample.SharedLibrary.pdb
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPI_MVC_Demo\MovieSample.SharedLibrary\obj\Debug\net5.0\MovieSample.SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPI_MVC_Demo\MovieSample.SharedLibrary\obj\Debug\net5.0\MovieSample.SharedLibrary.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPI_MVC_Demo\MovieSample.SharedLibrary\obj\Debug\net5.0\MovieSample.SharedLibrary.AssemblyInfo.cs
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPI_MVC_Demo\MovieSample.SharedLibrary\obj\Debug\net5.0\MovieSample.SharedLibrary.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPI_MVC_Demo\MovieSample.SharedLibrary\obj\Debug\net5.0\MovieSample.SharedLibrary.dll
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPI_MVC_Demo\MovieSample.SharedLibrary\obj\Debug\net5.0\ref\MovieSample.SharedLibrary.dll
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPI_MVC_Demo\MovieSample.SharedLibrary\obj\Debug\net5.0\MovieSample.SharedLibrary.pdb

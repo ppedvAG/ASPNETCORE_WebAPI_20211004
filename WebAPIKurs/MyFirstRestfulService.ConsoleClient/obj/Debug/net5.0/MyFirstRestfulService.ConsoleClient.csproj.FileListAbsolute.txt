@@ -1,0 +1,15 @@
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService.ConsoleClient\bin\Debug\net5.0\MyFirstRestfulService.ConsoleClient.exe
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService.ConsoleClient\bin\Debug\net5.0\MyFirstRestfulService.ConsoleClient.deps.json
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService.ConsoleClient\bin\Debug\net5.0\MyFirstRestfulService.ConsoleClient.runtimeconfig.json
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService.ConsoleClient\bin\Debug\net5.0\MyFirstRestfulService.ConsoleClient.runtimeconfig.dev.json
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService.ConsoleClient\bin\Debug\net5.0\MyFirstRestfulService.ConsoleClient.dll
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService.ConsoleClient\bin\Debug\net5.0\ref\MyFirstRestfulService.ConsoleClient.dll
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService.ConsoleClient\bin\Debug\net5.0\MyFirstRestfulService.ConsoleClient.pdb
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService.ConsoleClient\obj\Debug\net5.0\MyFirstRestfulService.ConsoleClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService.ConsoleClient\obj\Debug\net5.0\MyFirstRestfulService.ConsoleClient.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService.ConsoleClient\obj\Debug\net5.0\MyFirstRestfulService.ConsoleClient.AssemblyInfo.cs
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService.ConsoleClient\obj\Debug\net5.0\MyFirstRestfulService.ConsoleClient.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService.ConsoleClient\obj\Debug\net5.0\MyFirstRestfulService.ConsoleClient.dll
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService.ConsoleClient\obj\Debug\net5.0\ref\MyFirstRestfulService.ConsoleClient.dll
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService.ConsoleClient\obj\Debug\net5.0\MyFirstRestfulService.ConsoleClient.pdb
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService.ConsoleClient\obj\Debug\net5.0\MyFirstRestfulService.ConsoleClient.genruntimeconfig.cache

@@ -9,7 +9,6 @@ C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\DefaultMVCProject\bin\De
 C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\DefaultMVCProject\bin\Debug\net5.0\DefaultMVCProject.pdb
 C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\DefaultMVCProject\bin\Debug\net5.0\DefaultMVCProject.Views.dll
 C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\DefaultMVCProject\bin\Debug\net5.0\DefaultMVCProject.Views.pdb
-C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\DefaultMVCProject\obj\Debug\net5.0\DefaultMVCProject.csproj.AssemblyReference.cache
 C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\DefaultMVCProject\obj\Debug\net5.0\DefaultMVCProject.GeneratedMSBuildEditorConfig.editorconfig
 C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\DefaultMVCProject\obj\Debug\net5.0\DefaultMVCProject.AssemblyInfoInputs.cache
 C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\DefaultMVCProject\obj\Debug\net5.0\DefaultMVCProject.AssemblyInfo.cs
@@ -38,3 +37,4 @@ C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\DefaultMVCProject\obj\De
 C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\DefaultMVCProject\obj\Debug\net5.0\DefaultMVCProject.pdb
 C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\DefaultMVCProject\obj\Debug\net5.0\DefaultMVCProject.genruntimeconfig.cache
 C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\DefaultMVCProject\obj\Debug\net5.0\DefaultMVCProject.csproj.CopyComplete
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\DefaultMVCProject\obj\Debug\net5.0\DefaultMVCProject.csproj.AssemblyReference.cache

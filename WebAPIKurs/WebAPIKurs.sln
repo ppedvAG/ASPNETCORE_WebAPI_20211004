@@ -3,11 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultWebAPIProject", "DefaultWebAPIProject\DefaultWebAPIProject.csproj", "{A335C72F-F093-479F-B279-DAD9C263C512}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultWebAPIProject", "DefaultWebAPIProject\DefaultWebAPIProject.csproj", "{A335C72F-F093-479F-B279-DAD9C263C512}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultMVCProject", "DefaultMVCProject\DefaultMVCProject.csproj", "{14089534-4693-425D-A83D-D2464A99FEE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultMVCProject", "DefaultMVCProject\DefaultMVCProject.csproj", "{14089534-4693-425D-A83D-D2464A99FEE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstRestfulService", "MyFirstRestfulService\MyFirstRestfulService.csproj", "{CEECAC62-8D42-4F50-9280-416FDDEBB7D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstRestfulService", "MyFirstRestfulService\MyFirstRestfulService.csproj", "{CEECAC62-8D42-4F50-9280-416FDDEBB7D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{82C497E0-C571-4F05-95E5-B01CF706AD13}"
+	ProjectSection(SolutionItems) = preProject
+		Agenda.md = Agenda.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI48Demo", "WebAPI48Demo\WebAPI48Demo.csproj", "{C5EC193F-E2B7-4571-BF45-D220699343BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstRestfulService.ConsoleClient", "MyFirstRestfulService.ConsoleClient\MyFirstRestfulService.ConsoleClient.csproj", "{6F08F9CC-3F6C-4AC3-8DE0-D56DABA9918B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +36,14 @@ Global
 		{CEECAC62-8D42-4F50-9280-416FDDEBB7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEECAC62-8D42-4F50-9280-416FDDEBB7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEECAC62-8D42-4F50-9280-416FDDEBB7D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5EC193F-E2B7-4571-BF45-D220699343BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5EC193F-E2B7-4571-BF45-D220699343BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5EC193F-E2B7-4571-BF45-D220699343BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5EC193F-E2B7-4571-BF45-D220699343BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F08F9CC-3F6C-4AC3-8DE0-D56DABA9918B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F08F9CC-3F6C-4AC3-8DE0-D56DABA9918B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F08F9CC-3F6C-4AC3-8DE0-D56DABA9918B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F08F9CC-3F6C-4AC3-8DE0-D56DABA9918B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
