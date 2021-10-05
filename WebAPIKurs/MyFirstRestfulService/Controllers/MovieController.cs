@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 namespace MyFirstRestfulService.Controllers
 {
     [Route("api/[controller]")]
+    //[ApiConventionType(typeof(DefaultApiConventions))]
     [ApiController]
     public class MovieController : ControllerBase
     {
@@ -20,7 +21,8 @@ namespace MyFirstRestfulService.Controllers
             _dbContext = dbContext;
         }
 
-        [HttpGet]
+        [HttpGet] //https://localhost:44319/api/movie
+        //[ApiConventionMethod(typeof(DefaultApiConventions), nameof(DefaultApiConventions.Get))]
         public IList<Movie> GetAllMovies()
         {
             IList<Movie> movieListe = new List<Movie>();
@@ -34,33 +36,73 @@ namespace MyFirstRestfulService.Controllers
             return movieListe;
         }
 
-        //[HttpPost]
-        //public void AddMovie(Movie movie)
-        //{
-        //    _dbContext.Add(movie);
-        //    _dbContext.SaveChanges();
-        //}
-
-        //[HttpPut]
-        //public void Update(Movie movie)
-        //{
-        //    _dbContext.Update(movie);
-        //    _dbContext.SaveChanges();
-        //}
-
-        [HttpPost("/CreateOrUpdate")]
-        [HttpPut("/CreateOrUpdate")]
-        public void CreateOrUpdate(Movie movie)
+        [HttpGet("GetOnMovieFilms")] //https://localhost:44319/api/movie -> https://localhost:44319/api/Movie/GetOnMovieFilms  (besser)
+        public IEnumerable<Movie> GetOnMovieFilms()
         {
-            if (movie.Id != 0)
+            IList<Movie> movies = _dbContext.Movies.ToList();
+
+            foreach (Movie currentMovie in movies)
             {
-                // Update
-            }
-            else
-            {
-                // Insert
+                yield return currentMovie;
             }
         }
+
+
+        [HttpGet("{id}")]
+
+        //[ProducesResponseType(StatusCodes.Status200OK)]
+        //[ProducesResponseType(StatusCodes.Status400BadRequest)]
+        //[ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<Movie> GetMovie(int? id)
+        {
+            if (!id.HasValue)
+                return BadRequest(); //Http Fehlercode -> 400 zurück liefern
+
+
+            Movie currentMovie = _dbContext.Movies.Find(id.Value);
+
+            if (currentMovie == null)
+            {
+                return NotFound(); //Http Fehlercode -> 400 zurück liefern
+            }
+
+
+            return Ok(currentMovie);
+        
+        }
+
+        [HttpPost]
+        //Konvetionen können seperat unterhalb des jeweiligen HTTP-Verbs definiert werden
+        public void AddMovie(Movie movie)
+        {
+            _dbContext.Add(movie);
+            _dbContext.SaveChanges();
+        }
+
+        [HttpPut]
+        public void Update(Movie movie)
+        {
+            if (ModelState.IsValid)
+            {
+                _dbContext.Update(movie);
+                _dbContext.SaveChanges();
+            }
+        }
+
+        //Kombination von Verben funktionieren. Allerdings kann dann keine expliziete Konvetionen an den jeweiligen Methoden angewendet werden. 
+        //[HttpPost("/CreateOrUpdate")]
+        //[HttpPut("/CreateOrUpdate")]
+        //public void CreateOrUpdate(Movie movie)
+        //{
+        //    if (movie.Id != 0)
+        //    {
+        //        // Update
+        //    }
+        //    else
+        //    {
+        //        // Insert
+        //    }
+        //}
 
         [HttpDelete]
         public void Delete(Movie movie)

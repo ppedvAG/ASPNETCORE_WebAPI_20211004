@@ -31,3 +31,8 @@ C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService\ob
 C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService\obj\Debug\net5.0\ref\MyFirstRestfulService.dll
 C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService\obj\Debug\net5.0\MyFirstRestfulService.pdb
 C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService\obj\Debug\net5.0\MyFirstRestfulService.genruntimeconfig.cache
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService\obj\Debug\net5.0\MyFirstRestfulService.csproj.AssemblyReference.cache
