@@ -39,7 +39,7 @@ namespace MovieSample.API.Controllers
                 return NotFound();
             }
 
-            return movie;
+            return Ok(movie);
         }
 
         // PUT: api/Movie/5

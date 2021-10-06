@@ -38,33 +38,28 @@ namespace MyFirstRestfulService.Controllers
             return movieListe;
         }
 
-        //[HttpGet("GetOnMovieFilms")] //https://localhost:44319/api/movie -> https://localhost:44319/api/Movie/GetOnMovieFilms  (besser)
-        //public IEnumerable<Movie> GetOnMovieFilms()
-        //{
-        //    IList<Movie> movies = _dbContext.Movies.ToList();
+        [HttpGet("GetOnMovieFilms")] //https://localhost:44319/api/movie -> https://localhost:44319/api/Movie/GetOnMovieFilms  (besser)
+        public IEnumerable<Movie> GetOnMovieFilms()
+        {
+            IList<Movie> movies = _dbContext.Movies.ToList();
 
-        //    foreach (Movie currentMovie in movies)
-        //    {
-        //        yield return currentMovie;
-        //    }
-        //}
-
-
-        //public async IAsyncEnumerable<Movie> GetOnSaleProductsAsync()
-        //{
-        //    IAsyncEnumerable<Movie> movies = await _dbContext.Movies.();
+            foreach (Movie currentMovie in movies)
+            {
+                yield return currentMovie;
+            }
+        }
 
 
+        [HttpGet("asyncsale")]
+        public async IAsyncEnumerable<Movie> GetMovielFilmsAsny()
+        {
+            IAsyncEnumerable<Movie> products = _dbContext.Movies.AsAsyncEnumerable();
 
-
-        //    await foreach (var product in movies)
-        //    {
-        //        if (product.IsOnSale)
-        //        {
-        //            yield return product;
-        //        }
-        //    }
-        //}
+            await foreach (Movie movie in products)
+            {
+                yield return movie;
+            }
+        }
 
 
         [HttpGet("{id}")]

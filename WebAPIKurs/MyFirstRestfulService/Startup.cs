@@ -63,6 +63,8 @@ namespace MyFirstRestfulService
 
 
             services.AddHttpClient<IVideoStream, VideoStream>();
+
+            services.AddTransient<IFileService, FileService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
