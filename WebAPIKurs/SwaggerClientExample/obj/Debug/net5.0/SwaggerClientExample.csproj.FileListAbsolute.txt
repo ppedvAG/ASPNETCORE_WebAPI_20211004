@@ -1,0 +1,17 @@
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_12\ASPNETCORE_MVC_WEBAPI\SwaggerClientExample\bin\Debug\net5.0\SwaggerClientExample.exe
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_12\ASPNETCORE_MVC_WEBAPI\SwaggerClientExample\bin\Debug\net5.0\SwaggerClientExample.deps.json
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_12\ASPNETCORE_MVC_WEBAPI\SwaggerClientExample\bin\Debug\net5.0\SwaggerClientExample.runtimeconfig.json
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_12\ASPNETCORE_MVC_WEBAPI\SwaggerClientExample\bin\Debug\net5.0\SwaggerClientExample.runtimeconfig.dev.json
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_12\ASPNETCORE_MVC_WEBAPI\SwaggerClientExample\bin\Debug\net5.0\SwaggerClientExample.dll
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_12\ASPNETCORE_MVC_WEBAPI\SwaggerClientExample\bin\Debug\net5.0\ref\SwaggerClientExample.dll
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_12\ASPNETCORE_MVC_WEBAPI\SwaggerClientExample\bin\Debug\net5.0\SwaggerClientExample.pdb
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_12\ASPNETCORE_MVC_WEBAPI\SwaggerClientExample\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_12\ASPNETCORE_MVC_WEBAPI\SwaggerClientExample\obj\Debug\net5.0\SwaggerClientExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_12\ASPNETCORE_MVC_WEBAPI\SwaggerClientExample\obj\Debug\net5.0\SwaggerClientExample.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_12\ASPNETCORE_MVC_WEBAPI\SwaggerClientExample\obj\Debug\net5.0\SwaggerClientExample.AssemblyInfo.cs
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_12\ASPNETCORE_MVC_WEBAPI\SwaggerClientExample\obj\Debug\net5.0\SwaggerClientExample.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_12\ASPNETCORE_MVC_WEBAPI\SwaggerClientExample\obj\Debug\net5.0\SwaggerClientExample.csproj.CopyComplete
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_12\ASPNETCORE_MVC_WEBAPI\SwaggerClientExample\obj\Debug\net5.0\SwaggerClientExample.dll
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_12\ASPNETCORE_MVC_WEBAPI\SwaggerClientExample\obj\Debug\net5.0\ref\SwaggerClientExample.dll
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_12\ASPNETCORE_MVC_WEBAPI\SwaggerClientExample\obj\Debug\net5.0\SwaggerClientExample.pdb
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_12\ASPNETCORE_MVC_WEBAPI\SwaggerClientExample\obj\Debug\net5.0\SwaggerClientExample.genruntimeconfig.cache

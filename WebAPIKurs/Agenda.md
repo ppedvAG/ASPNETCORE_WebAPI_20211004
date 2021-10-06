@@ -15,15 +15,15 @@ WebAPI:
 - [x] Customize Formatter (VCARD)
 - [x] WebAPI + EFCore + MVC als Client (1 Stunde) (Json Übertragung) 
 - [x] HttpClient (30 Minuten)
-- [ ] Migration von MVC & WebAPI von 4.8 auf ASP.NET Core
+- [x] Migration von MVC & WebAPI von 4.8 auf ASP.NET Core
 
 - [x] HTTP-Patch Befehl manuell hinzufügen
-- [ ] Datei übertragn mit WebAPI
+- [x] Datei übertragn mit WebAPI
 - [x] Broadcast Videoübertragung via WebAPI
-- [ ] Pagging u. weitere WebAPI Features -> Skip/Take für PAging / Sorting und Filtering
+- [x] Pagging u. weitere WebAPI Features -> Skip/Take für PAging / Sorting und Filtering
 - [ ] Architekturen -> Hateoas + DataShapping + OData + GraphQL (30 Minuten oder) 
 - [ ] ODATA 8 (beta) -> Beispiel Odata-Service Implementierung.  (30-45)
-- [ ] Client mit Swagger.json (Aktuell kann es zu Bugs in VS kommen)
+- [x] Client mit Swagger.json (Aktuell kann es zu Bugs in VS kommen)
 
 
 

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "GvnV/nF43cK6cOXG0YQPMFIVoT4R/TQwgoQAnUy8E7e8N1OCWEJytlT9gC32NfFRSoQp2EaIOaJ+0I2JyO8ZRQ==",
+  "success": true,
+  "projectFilePath": "C:\\Aktueller Kurs\\ASPNETCORE_WebAPI_20211004\\WebAPIKurs\\SwaggerClientExample\\SwaggerClientExample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.extensions.apidescription.client\\5.0.7\\microsoft.extensions.apidescription.client.5.0.7.nupkg.sha512",
+    "C:\\Users\\kw4\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\kw4\\.nuget\\packages\\nswag.apidescription.client\\13.11.3\\nswag.apidescription.client.13.11.3.nupkg.sha512",
+    "C:\\Users\\kw4\\.nuget\\packages\\nswag.msbuild\\13.11.3\\nswag.msbuild.13.11.3.nupkg.sha512"
+  ],
+  "logs": []
+}

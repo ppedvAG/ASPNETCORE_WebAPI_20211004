@@ -139,3 +139,4 @@ C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService\bi
 C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
 C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService\bin\Debug\net5.0\WebApiContrib.Core.Formatter.Csv.dll
+C:\Aktueller Kurs\ASPNETCORE_WebAPI_20211004\WebAPIKurs\MyFirstRestfulService\obj\Debug\net5.0\MyFirstRestfulService.csproj.AssemblyReference.cache
